@@ -1,0 +1,23 @@
+@media (max-width:768px) {
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top:55px;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translate(100%);
+        transition: 0.5s ease-in;
+    }
+    .burger {
+        display: block;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+}
+.nav-active {
+    transform: translateX(0%);
+}

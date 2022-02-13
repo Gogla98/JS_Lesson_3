@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background:url(https://cdn.wallpaperjam.com/578af7e43bd1b518a83841879171a3e591ba322a/assassins-creed-abstergo-industries.jpg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    top:0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    width: 20%;
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    color:white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.nav-links a:hover {
+    color: rgb(158, 174, 248);
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.1s  ease;
+}
